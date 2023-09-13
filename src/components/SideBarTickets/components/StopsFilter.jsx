@@ -4,6 +4,7 @@ export const StopsFilter = ({ stopsCount, setSelected, selected }) => {
 	const handleSelectedChange = (event) => {
 		event.stopPropagation();
 		const id = event.target.id;
+		if (!id) return;
 		const index = selected?.findIndex((el) => el === id);
 		if (index === -1) {
 			setSelected((prevState) => [...prevState, id]);

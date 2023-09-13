@@ -9,7 +9,7 @@ export const TicketsListItem = ({ ticket }) => {
 					<CarrierLogo carrier={ticket.carrier} />
 				</div>
 				<button className="bg-orange-500 text-white rounded px-10 py-1 hover:opacity-90">
-					Купить <br /> за {ticket.price}
+					Купить <br /> за {ticket.price.toLocaleString('ru-RU')}
 				</button>
 			</div>
 			<div className="flex justify-between py-6 px-8 w-full">

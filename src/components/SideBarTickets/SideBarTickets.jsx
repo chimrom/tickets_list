@@ -8,7 +8,7 @@ export const SideBarTickets = ({
 	selected,
 }) => {
 	return (
-		<section className="bg-white  text-gray-600 text-sm ">
+		<section className="bg-white  text-gray-600 text-sm h-full py-3 ">
 			<h3 className="uppercase mb-3 px-4">Валюта</h3>
 			<CurrencyGroup currency={currency} />
 			<h3 className="uppercase mb-3  px-4">Количество пересадок</h3>

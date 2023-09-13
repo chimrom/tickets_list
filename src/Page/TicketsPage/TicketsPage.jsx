@@ -23,7 +23,7 @@ export const TicketsPage = () => {
 	}, []);
 
 	return (
-		<main className="container flex gap-5 ">
+		<main className="container flex gap-5 mt-20  justify-between">
 			<SideBarTickets
 				currency={currency}
 				stopsCount={stopsCount}
