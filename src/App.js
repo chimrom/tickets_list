@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { TicketsPage } from './Page/TicketsPage/TicketsPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className="min-h-screen max-w-7xl flex justify-center items-center mx-auto">
+			<TicketsPage />
+		</main>
+	);
 }
 
 export default App;
